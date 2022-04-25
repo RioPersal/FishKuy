@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPw2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Sudah Punya Akun?"
+        android:textColor="#000000"
+        android:textSize="15"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Login"
+        android:textColor="#2F88FF"
+        android:textSize="15"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_onboarding"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Lanjutkan"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Lupa Kata Sandi"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFiel"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Kata Sandi Baru"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="175dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Kembali Kata Sandi Baru"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="275dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

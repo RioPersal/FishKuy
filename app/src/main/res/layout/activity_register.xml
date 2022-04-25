@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_onboarding"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Lanjut"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Daftar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFiel"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="175dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307dp"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="255dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:hint="Nomor telepon"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="335dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:text="Dengan mendaftar, saya setuju pada syarat & ketentuan dan kebijakan privasi nama app"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
