@@ -50,6 +50,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
 
+
     <!-- Kotak 2 -->
     <View
         android:id="@+id/rectangle_5"
@@ -64,6 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
+
 
     <!-- Kotak 3 -->
     <View
@@ -80,6 +82,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
 
+
     <!-- Kotak 4 -->
     <View
         android:id="@+id/rectangle_5"
@@ -94,6 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
+
 
     <!-- Kotak 5 -->
     <View
@@ -110,6 +114,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
 
+
     <!-- Kotak 6 -->
     <View
         android:id="@+id/rectangle_5"
@@ -125,8 +130,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_goneMarginTop="95dp" />
 
-    <!-- Navigasi -->
 
+    <!-- Navigasi -->
     <View
         android:id="@+id/rectangle_1"
         android:layout_width="416dp"
