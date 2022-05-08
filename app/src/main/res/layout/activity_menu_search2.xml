@@ -21,13 +21,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Kotak 1 -->
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="34dp"
         android:background="@drawable/bg_search"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="76dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -47,9 +50,7 @@
             android:textSize="20dp" />
     </RelativeLayout>
 
-    <!-- Kotak 1 -->
     <RelativeLayout
-        android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
         android:layout_alignParentLeft="true"
@@ -111,7 +112,6 @@
 
     <!-- Kotak 2 -->
     <RelativeLayout
-        android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
         android:layout_alignParentLeft="true"
@@ -173,7 +173,6 @@
 
     <!-- Kotak 3 -->
     <RelativeLayout
-        android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
         android:layout_alignParentLeft="true"
@@ -235,7 +234,6 @@
 
     <!-- Kotak 4 -->
     <RelativeLayout
-        android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
         android:layout_alignParentLeft="true"

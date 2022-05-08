@@ -29,7 +29,8 @@
         <EditText
             android:layout_width="227dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"/>
+            android:layout_marginStart="40dp"
+            tools:ignore="TouchTargetSizeCheck" />
     </RelativeLayout>
 
     <ImageView
@@ -50,8 +51,6 @@
         android:src="@drawable/icon_tanya"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- Navigasi -->
 
     <ImageView
         android:layout_width="wrap_content"
@@ -133,7 +132,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <View
+    <!-- Navigasi -->
+    <RelativeLayout
         android:id="@+id/rectangle_1"
         android:layout_width="416dp"
         android:layout_height="61dp"
@@ -144,59 +144,62 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="32dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/navigasi1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="32dp" />
 
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi2"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="130dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/navigasi2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="130dp" />
 
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi3"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="226dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/navigasi3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="226dp" />
 
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi4"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="324dp" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/navigasi4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="324dp" />
+    </RelativeLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

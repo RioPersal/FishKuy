@@ -3,22 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_forgot_pw1.xml" value="0.1569046601111586" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_forgot_pw1.xml" value="0.2" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_forgot_pw2.xml" value="0.1569046601111586" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_forgot_pw3.xml" value="0.1569046601111586" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_homescreen.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_login.xml" value="0.1569046601111586" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_main.xml" value="0.1852355072463768" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_beli.xml" value="0.16" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_detailproduk.xml" value="0.5" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_faq.xml" value="0.25" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_keranjang.xml" value="0.33" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_lainnya.xml" value="0.4050955414012739" />
-        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_seafood.xml" value="0.33" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_seafood.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_search.xml" value="0.25" />
-        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_search2.xml" value="0.3052586575459598" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_search2.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menu_tentangapk.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menuikan_laut.xml" value="0.3052586575459598" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_menuikan_tawar.xml" value="0.33" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_onboarding1.xml" value="0.2" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_onboarding2.xml" value="0.19114583333333332" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_pengiriman_pembayaran.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_register.xml" value="0.19114583333333332" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_splashscreen.xml" value="0.19114583333333332" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuy/app/src/main/res/layout/activity_transaksi_berhasil.xml" value="0.33" />

@@ -19,7 +19,7 @@
         android:clipToOutline="true"
         android:src="@drawable/button_back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
@@ -29,7 +29,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="44dp"
-        android:gravity="top"
         android:text="Tentang Aplikasi"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -51,8 +50,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-
     </LinearLayout>
 
 

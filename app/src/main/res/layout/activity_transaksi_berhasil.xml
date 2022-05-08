@@ -8,13 +8,11 @@
     tools:context=".Transaksiberhasil">
 
     <TextView
-        android:id="@+id/transaksi_berhasil"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="76dp"
-        android:gravity="top"
         android:text="Transaksi anda Berhasil"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -42,7 +40,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="381dp"
-        android:gravity="top"
         android:text="Pesanan anda sedang di proses oleh penjual, mohon ditunggu. Terima kasih."
         android:textAlignment="center"
         android:textColor="@color/black"
