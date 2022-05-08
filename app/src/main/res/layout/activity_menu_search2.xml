@@ -5,22 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E5E5"
-    tools:context=".Ikantawar">
+    tools:context="Search2">
 
-
-    <TextView
-        android:id="@+id/ikan_air_tawar"
-        android:layout_width="135dp"
-        android:layout_height="25dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
-        android:gravity="top"
-        android:text="Ikan Air Tawar"
-        android:textSize="20dp"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/button2"
@@ -34,6 +20,32 @@
         android:src="@drawable/button_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/bg_search"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="76dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/icon_search" />
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:text="Ikan Nila"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
 
     <!-- Kotak 1 -->
     <RelativeLayout
@@ -59,7 +71,7 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="6dp"
-            android:src="@drawable/ikan_mujair" />
+            android:src="@drawable/ikan_nila" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,7 +81,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Mujair"
+            android:text="Ikan Nila"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -80,7 +92,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 40.000 /kg"
+            android:text="Rp. 20.000 /kg"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -121,7 +133,7 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="6dp"
-            android:src="@drawable/ikan_gurame" />
+            android:src="@drawable/ikan_nila_merah" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -131,7 +143,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Gurame"
+            android:text="Ikan Nila Merah"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -142,7 +154,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 40.000 /kg"
+            android:text="Rp. 25.000 /kg"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -183,7 +195,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_lele" />
+            android:src="@drawable/ikan_nila2" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -245,7 +257,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_nila" />
+            android:src="@drawable/ikan_nila_campur" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -255,7 +267,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Nila"
+            android:text="Ikan Nila Campur"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -266,7 +278,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 20.000 /kg"
+            android:text="Rp. 30.000 /kg"
             android:textSize="15dp"
             android:textColor="@color/black"/>
 
@@ -282,201 +294,6 @@
             android:text="Beli" />
 
     </RelativeLayout>
-
-    <!-- Kotak 5 -->
-    <RelativeLayout
-        android:id="@+id/rectangle_5"
-        android:layout_width="152dp"
-        android:layout_height="196dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="512dp"
-        android:background="@drawable/bg_produk"
-        android:elevation="4dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" >
-
-        <ImageView
-            android:layout_width="148dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_patin" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="9dp"
-            android:layout_marginBottom="73dp"
-            android:text="Ikan Patin"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="18dp"
-            android:layout_marginBottom="54dp"
-            android:text="Rp. 24.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
-
-        <Button
-            android:layout_width="104dp"
-            android:layout_height="38dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="7dp"
-            android:text="Beli" />
-
-    </RelativeLayout>
-
-    <!-- Kotak 6 -->
-    <RelativeLayout
-        android:id="@+id/rectangle_5"
-        android:layout_width="152dp"
-        android:layout_height="196dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="512dp"
-        android:background="@drawable/bg_produk"
-        android:elevation="4dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" >
-
-        <ImageView
-            android:layout_width="148dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_gabus" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="9dp"
-            android:layout_marginBottom="73dp"
-            android:text="Ikan Gabus"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="18dp"
-            android:layout_marginBottom="54dp"
-            android:text="Rp. 50.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
-
-        <Button
-            android:layout_width="104dp"
-            android:layout_height="38dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="7dp"
-            android:text="Beli" />
-
-    </RelativeLayout>
-
-    <!-- Navigasi -->
-
-    <View
-        android:id="@+id/rectangle_1"
-        android:layout_width="416dp"
-        android:layout_height="61dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="0dp"
-        android:background="@drawable/navigasi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi1"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="32dp" />
-
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi2"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="130dp" />
-
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi3"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="226dp" />
-
-    <View
-        android:id="@+id/chat_13"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/navigasi4"
-        android:clipToOutline="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="324dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E5E5"
-    tools:context=".Ikanlaut">
+    tools:context="Ikanlaut">
 
 
     <TextView
-        android:id="@+id/ikan_air_laut"
+        android:id="@+id/ikan_air_tawar"
         android:layout_width="135dp"
         android:layout_height="25dp"
         android:layout_alignParentLeft="true"
@@ -36,7 +36,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Kotak 1 -->
-    <View
+
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -48,10 +49,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ikan_kakap_putih" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Kakap Putih"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 65.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 2 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -63,10 +111,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ikan_tuna" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Tuna"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 80.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 3 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -78,10 +173,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ikan_makarel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Makarel"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 50.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 4 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -93,10 +235,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ikan_bawal_putih" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Bawal Putih"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 20.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 5 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -108,10 +297,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ikan_cakalang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Cakalang"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 29.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 6 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -123,7 +359,54 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ikan_sarden" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Ikan Sarden"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 28.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Navigasi -->
 

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E5E5"
-    tools:context=".Seafood">
+    tools:context="Seafood">
 
 
     <TextView
-        android:id="@+id/ikan_air_ta"
+        android:id="@+id/ikan_air_tawar"
         android:layout_width="135dp"
         android:layout_height="25dp"
         android:layout_alignParentLeft="true"
@@ -36,7 +36,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Kotak 1 -->
-    <View
+
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -48,11 +49,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/udang_galah" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Udang Galah"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 15.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 2 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -64,11 +111,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="94dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/cumi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Cumi-cumi"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 80.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 3 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -80,11 +173,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/kepiting_bakau" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Kepiting Bakau"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 125.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 4 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -96,11 +235,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/kerang_dara" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Kerang Dara"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 30.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 5 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -112,11 +297,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/kerang_ijo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Kerang Hijau"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 16.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Kotak 6 -->
-    <View
+    <RelativeLayout
         android:id="@+id/rectangle_5"
         android:layout_width="152dp"
         android:layout_height="196dp"
@@ -128,10 +359,57 @@
         android:elevation="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" />
+        app:layout_goneMarginTop="95dp" >
 
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/kerang_bambu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="73dp"
+            android:text="Kerang Bambu"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="54dp"
+            android:text="Rp. 60.000 /kg"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="7dp"
+            android:text="Beli" />
+
+    </RelativeLayout>
 
     <!-- Navigasi -->
+
     <View
         android:id="@+id/rectangle_1"
         android:layout_width="416dp"
